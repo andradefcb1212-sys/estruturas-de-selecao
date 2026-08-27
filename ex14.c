@@ -8,6 +8,7 @@ int main(){
     printf("Insira o código da sua ocupação (1 a 5): \n");
     scanf("%d", &codigo);
     
+    //Condicionais, Processamento e Saída
     if (codigo == 1) {
         printf("O seu cargo é de ESCRITUÁRIO e você tem direito a 50%% de aumento!");
     } else if (codigo == 2) {

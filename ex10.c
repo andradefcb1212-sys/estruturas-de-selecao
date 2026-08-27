@@ -12,6 +12,7 @@ int main(){
     //Processamento
     resultado = numero % 2;
     
+    //Condicionais e Saídas
     if (resultado == 0) {
         printf("Número Par!");
     } else {

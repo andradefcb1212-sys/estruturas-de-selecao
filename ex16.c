@@ -6,14 +6,17 @@ int main(){
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
 
+    //Declaração de Variáveis
     int idade;
     char grupo[2];
 
+    //Entrada de dados
     printf("Insira a sua idade: \n");
     scanf("%d", &idade);
     printf("Insira o seu grupo de risco (b - baixo, m- médio, a - alto): \n");
     scanf("%s", grupo);
 
+    //Processamento + Variáveis
     if (idade >= 18 && idade <= 24){
         if (strcmp(grupo, "b") == 0) {
             printf("O seu código do seguro é: 7");

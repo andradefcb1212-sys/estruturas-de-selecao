@@ -5,11 +5,14 @@ int main() {
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
     
+    //Declaração de Variáveis
     int angulo;
 
+    //Entrada de dados
     printf("Insira o ângulo desejado: \n");
     scanf("%d", &angulo);
 
+    //Processamento + Condicionais + Saídas
     if ((angulo > 0 && angulo < 90) || (angulo < -270 && angulo >= -360)) {
         printf("O ângulo %d° está no 1° quadrante.\n", angulo);
     } else if ((angulo > 90 && angulo < 180) || (angulo < -180 && angulo >= -270)) {

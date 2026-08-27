@@ -6,9 +6,11 @@ int main(){
     SetConsoleCP(65001);
     SetConsoleOutputCP(65001);
     
+    //Declaração das Variáveis
     float n1, n2, soma = 0;
     int raiz, valor, comando;
 
+    //Menu + Entrada de seleção da operação
     printf("------------------------------\n");
     printf("--------MENU PRINCIPAL--------\n");
     printf("------------------------------\n");
@@ -17,6 +19,7 @@ int main(){
     printf("3 - Finalizar\n");
     scanf("%d", &comando);
 
+    //Processamento + Saída de informação 
     if (comando == 1){
         printf("A opção escolhida foi SOMA!\n");
         printf("Insira o primeiro valor: \n");

@@ -5,11 +5,15 @@ int main(){
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
 
+    //Declaração de Variáveis
     float valor, desconto = 0, valor_final = 0, juros = 0;
     int metodo;
+
+    //Entrada de dados
     printf("Insira o valor do produto que vai ser pago: \n");
     scanf("%f", &valor);
 
+    //Menu de escolha
     printf("--------------------------------------------\n");
     printf("------ESCOLHA UMA FORMA DE PAGAMENTO--------\n");
     printf("--------------------------------------------\n");
@@ -20,6 +24,7 @@ int main(){
     printf("--------------------------------------------\n");
     scanf("%d", &metodo);
 
+    //Processamento + Condicional + Saída
     if (metodo == 1) {
         desconto = valor * 0.9;
         printf("O valor da compra ficará em R$%.2f", desconto);

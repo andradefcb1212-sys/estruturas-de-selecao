@@ -4,8 +4,10 @@
 int main(){
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
-
+    //Declaração
     float a, b, c;
+
+    //Entrada de dados
     printf("Insira o lado A: ");
     scanf("%f", &a);
     printf("Insira o lado B: ");
@@ -13,7 +15,7 @@ int main(){
     printf("Insira o lado C: ");
     scanf("%f", &c);
 
-    //Processamento
+    //Processamento e Saída
     if((a < b+c) && (b < a+c) && (c < a+b)){
         if (a == b && b == c){
             printf("Triângulo Equilárero!\n");

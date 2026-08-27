@@ -4,11 +4,13 @@ int main(){
     //Declaração de Variáveis
     float n1, n2;
     
+    //Entrada de dados
     printf("Insira o primeiro número: \n");
     scanf("%f", &n1);
     printf("Insira o segundo número: \n");
     scanf("%f", &n2);
     
+    //Processamento + Condicionais + Saída
     if (n1 > n2) {
         printf("%.2f", n2);
     } else {
